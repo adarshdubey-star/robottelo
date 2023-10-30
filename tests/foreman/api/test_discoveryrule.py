@@ -84,7 +84,7 @@ def test_positive_end_to_end_crud(module_org, module_location, module_hostgroup,
 
 
 @pytest.mark.tier3
-def test_positive_update_and_provision_with_rule_priority(
+def test_positive_provision_with_rule_priority(
     module_target_sat, module_discovery_hostgroup, discovery_location, discovery_org
 ):
     """Create multiple discovery rules with different priority and check
